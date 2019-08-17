@@ -1,0 +1,21 @@
+{
+	"name": "brekk-app",
+	"version": "1.0.0",
+	"description": "A simple sign-on, sign-off app",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"dev": "nodemon index"
+	},
+	"author": "Bac Trach Dam",
+	"license": "ISC",
+	"dependencies": {
+		"config": "^3.2.2",
+		"express": "^4.17.1",
+		"joi": "^14.3.1",
+		"mongoose": "^5.6.9"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.1"
+	}
+}
